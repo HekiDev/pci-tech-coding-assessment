@@ -8,7 +8,7 @@ php artisan migrate
 php artisan serve
 
 <b>Seed the database table</b><br>
-php artisan db:seed --class=OrderSeeder
+php artisan db:seed --class=ProductSeeder
 
 
 ## Tool for API Manipulation 
