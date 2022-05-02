@@ -2,10 +2,10 @@
 
 ## Project Setup
 
-<b>Serve the application in local</b>
+<b>Serve the application in local</b><br>
 php artisan serve
 
-<b>Seed the database table</b>
+<b>Seed the database table</b><br>
 php artisan db:seed --class=OrderSeeder
 
 
@@ -13,21 +13,21 @@ php artisan db:seed --class=OrderSeeder
 Postman
 
 ## API EndPoints
-LOGIN - POST
+LOGIN - POST <br>
 http://127.0.0.1:8000/api/login
 
-REGISTER - POST
+REGISTER - POST <br>
 http://127.0.0.1:8000/api/register
 
-<b>Should be authenticated</b>
-DISPLAY ALL RESOURCES - GET
+<b>Should be authenticated</b> <br>
+DISPLAY ALL RESOURCES - GET <br>
 http://127.0.0.1:8000/api/orders 
 
-DISPLAY RESOURCE BY ID - GET
+DISPLAY RESOURCE BY ID - GET <br>
+http://127.0.0.1:8000/api/orders/{id}  
+
+PLACE AN ORDER - POST <br>
 http://127.0.0.1:8000/api/orders/{id} 
 
-PLACE AN ORDER - POST
-http://127.0.0.1:8000/api/orders/{id} 
-
-LOGOUT - POST
+LOGOUT - POST <br>
 http://127.0.0.1:8000/api/logout
