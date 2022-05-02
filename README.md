@@ -1,6 +1,8 @@
 
 
 ## Project Setup
+<b>Migrate Database</b><br>
+php artisan migrate
 
 <b>Serve the application in local</b><br>
 php artisan serve
