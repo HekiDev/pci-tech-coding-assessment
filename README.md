@@ -10,7 +10,12 @@ php artisan db:seed --class=OrderSeeder
 
 
 ## Tool for API Manipulation 
-Postman
+Postman <br>
+For Headers Setup: <b>Key:</b> Accept <b>Value:</b> application/json
+<br>
+For using the Access Token <br>
+set Authorization and set the type to <b>Bearer Token</b>
+    
 
 ## API EndPoints
 LOGIN - POST <br>
